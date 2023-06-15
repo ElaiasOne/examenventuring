@@ -1,0 +1,33 @@
+.upload-csv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional: ajusta la altura según tus necesidades */
+  }
+  
+  .upload-csv {
+    text-align: center;
+  }
+  
+  .upload-csv h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .upload-csv input[type="file"] {
+    margin-bottom: 1rem;
+  }
+  
+  .upload-csv button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upload-csv button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
